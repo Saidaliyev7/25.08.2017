@@ -1,0 +1,131 @@
+
+body {
+width: 960px;
+height: 960px;
+}
+.button{
+    width: 10px;
+    
+} 
+.button button {
+        margin: 20px 0px;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-color: #4CAF50;
+    border-radius: 10px;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    left: 0;
+    top: 0;
+}
+.popup .items{
+    position: absolute;
+    width: 37%;
+    height: 39%;
+    background-color: white;
+    left: 27%;
+    top: 9%;
+    border: 1px solid white;
+    border-radius: 10px;
+     background-image: url(../img/1.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popup .items .loginParol{
+    width: 45%;
+    height: 81%;
+    position: absolute;
+    padding: 11px;
+    left: 27%;
+    top: 5%;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.popup .items .loginParol input {
+    margin: 2px;
+    padding: 8px;
+    width: 88%;
+}
+ .popup .items .fa-times {
+     position: absolute;
+     top: -3%;
+     right: -2%;
+     border: 1px solid white ;
+     background-color: white;
+     width: 20px;
+     height: 20px;
+     line-height: 20px;
+     text-align: center;
+     border-radius:100%;
+     cursor: pointer;
+     background-color: black;
+     color: white;
+ }
+.popup .items button{
+    width: 85%;
+    position: absolute;
+    left: 5%;
+    top: 63%;
+    margin: 20px 0px;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: white;
+    color: #ffffff;
+    border-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.popup p {
+    font-size: 16px;
+    color: white;
+}
+ .email , .password{
+     font-family:Arial, FontAwesome;
+
+}
+
+.loginParol a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    }
+.loginParol .a1{
+    bottom: 5%;
+    font-size: 11px;
+    left: 6%;
+    }
+    .loginParol .a2{
+    bottom: 5%;
+    font-size: 11px;
+    right: 10%;
+    }
